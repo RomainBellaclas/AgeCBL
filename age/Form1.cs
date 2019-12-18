@@ -14,10 +14,22 @@ namespace age
         public Form1()
         {
             InitializeComponent();
+
+
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+            progressBar1.Maximum = 10;
+            progressBar1.Minimum = 0;
+            progressBar1.Step = 1;
+
+            while (this.label_result.Text == "result")
+            {
+                progressBar1.PerformStep();
+            }
+
+
             if (DateTime.Parse(textBox_dateDeNaissance.Text) <= DateTime.Today.AddYears(-18) & DateTime.Parse(textBox_dateDeNaissance.Text) >= DateTime.Today.AddYears(-25))
             {
                 label_result.Text = "19-25";

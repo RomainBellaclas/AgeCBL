@@ -32,6 +32,7 @@
             this.textBox_dateDeNaissance = new System.Windows.Forms.TextBox();
             this.label_result = new System.Windows.Forms.Label();
             this.label_age = new System.Windows.Forms.Label();
+            this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.SuspendLayout();
             // 
             // button1
@@ -54,7 +55,7 @@
             // label_result
             // 
             this.label_result.AutoSize = true;
-            this.label_result.Location = new System.Drawing.Point(76, 151);
+            this.label_result.Location = new System.Drawing.Point(67, 167);
             this.label_result.Name = "label_result";
             this.label_result.Size = new System.Drawing.Size(32, 13);
             this.label_result.TabIndex = 2;
@@ -69,11 +70,19 @@
             this.label_age.TabIndex = 3;
             this.label_age.Text = "Age :";
             // 
+            // progressBar1
+            // 
+            this.progressBar1.Location = new System.Drawing.Point(70, 141);
+            this.progressBar1.Name = "progressBar1";
+            this.progressBar1.Size = new System.Drawing.Size(100, 23);
+            this.progressBar1.TabIndex = 4;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 262);
+            this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.label_age);
             this.Controls.Add(this.label_result);
             this.Controls.Add(this.textBox_dateDeNaissance);
@@ -91,6 +100,7 @@
         private System.Windows.Forms.TextBox textBox_dateDeNaissance;
         private System.Windows.Forms.Label label_result;
         private System.Windows.Forms.Label label_age;
+        private System.Windows.Forms.ProgressBar progressBar1;
     }
 }
 
