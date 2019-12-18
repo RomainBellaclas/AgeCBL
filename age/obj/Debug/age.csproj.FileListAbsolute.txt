@@ -22,3 +22,11 @@ Z:\informatique\Projet\age\age\obj\Debug\ResolveAssemblyReference.cache
 Z:\informatique\Projet\age\age\obj\Debug\age.Form1.resources
 Z:\informatique\Projet\age\age\obj\Debug\age.Properties.Resources.resources
 Z:\informatique\Projet\age\age\obj\Debug\age.csproj.GenerateResource.Cache
+Z:\informatique\Projet\age\AgeCBL\age\obj\Debug\age.exe
+Z:\informatique\Projet\age\AgeCBL\age\obj\Debug\age.pdb
+Z:\informatique\Projet\age\AgeCBL\age\bin\Debug\age.exe
+Z:\informatique\Projet\age\AgeCBL\age\bin\Debug\age.pdb
+Z:\informatique\Projet\age\AgeCBL\age\obj\Debug\ResolveAssemblyReference.cache
+Z:\informatique\Projet\age\AgeCBL\age\obj\Debug\age.Form1.resources
+Z:\informatique\Projet\age\AgeCBL\age\obj\Debug\age.Properties.Resources.resources
+Z:\informatique\Projet\age\AgeCBL\age\obj\Debug\age.csproj.GenerateResource.Cache

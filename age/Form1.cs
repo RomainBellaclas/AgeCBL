@@ -18,7 +18,11 @@ namespace age
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (DateTime.Parse(textBox_dateDeNaissance.Text) <= DateTime.Today.AddYears(-18))
+            if (DateTime.Parse(textBox_dateDeNaissance.Text) <= DateTime.Today.AddYears(-18) & DateTime.Parse(textBox_dateDeNaissance.Text) >= DateTime.Today.AddYears(-25))
+            {
+                label_result.Text = "19-25";
+            }
+            else if (DateTime.Parse(textBox_dateDeNaissance.Text) < DateTime.Today.AddYears(-18))
             {
                 label_result.Text = "Majeur";
             }
