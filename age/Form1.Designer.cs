@@ -28,10 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.button1 = new System.Windows.Forms.Button();
             this.textBox_dateDeNaissance = new System.Windows.Forms.TextBox();
             this.label_result = new System.Windows.Forms.Label();
             this.label_age = new System.Windows.Forms.Label();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -69,6 +72,10 @@
             this.label_age.TabIndex = 3;
             this.label_age.Text = "Age :";
             // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -80,6 +87,7 @@
             this.Controls.Add(this.button1);
             this.Name = "Form1";
             this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -91,6 +99,7 @@
         private System.Windows.Forms.TextBox textBox_dateDeNaissance;
         private System.Windows.Forms.Label label_result;
         private System.Windows.Forms.Label label_age;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
     }
 }
 

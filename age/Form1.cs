@@ -18,9 +18,11 @@ namespace age
 
         private void button1_Click(object sender, EventArgs e)
         {
+            this.errorProvider1.SetError(this.label_result, String.Empty);
             if (DateTime.Parse(textBox_dateDeNaissance.Text) <= DateTime.Today.AddYears(-18) & DateTime.Parse(textBox_dateDeNaissance.Text) >= DateTime.Today.AddYears(-25))
             {
                 label_result.Text = "19-25";
+                
             }
             else if (DateTime.Parse(textBox_dateDeNaissance.Text) < DateTime.Today.AddYears(-18))
             {
@@ -28,7 +30,9 @@ namespace age
             }
             else
             {
+                this.errorProvider1.SetError(this.label_result, "vous êtes mineur");
                 label_result.Text = "Mineur";
+
             }
         }
     }
